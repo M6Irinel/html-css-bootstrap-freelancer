@@ -1,0 +1,36 @@
+
+
+ul, ol, menu {list-style: none;}
+
+:root {
+    --color-green: #1abc9c;
+}
+
+main header {
+    background-color: var(--color-green);
+}
+
+main header figure {
+    width: 300px;
+}
+
+footer .icons ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .icons li {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 52px;
+    aspect-ratio: 1;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .color_span {
+    color: var(--color-green);
+}
