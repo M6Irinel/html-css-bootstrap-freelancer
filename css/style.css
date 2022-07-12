@@ -57,7 +57,7 @@ body > header .mobile {
         font-size: 50px !important;
     }
 
-    main #portfolio h2, main #about h2 {
+    main #portfolio h2, main #about h2, main #contact_me h2 {
         font-size: 50px !important;
     }
     
@@ -65,7 +65,7 @@ body > header .mobile {
         font-size: 25px !important;
     }
 
-    main #about .bottom {
+    main #about .bottom, main #contact_me form {
         width: 80%;
         margin: 0 auto;
     }
@@ -133,11 +133,26 @@ main #about h2 {
     font-size: 25px;
 }
 
-main .contact_me .content {
-    /* debug */
-    height: 275px;
-    /* debug */
-    background-color: beige;
+main #contact_me input[type="submit"]{
+    background-color: var(--color-light_green);
+}
+
+main #contact_me .bord {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+main #contact_me h2 {
+    color: #333333;
+    font-size: 25px;
+}
+
+main #contact_me .bar {
+    background-color: #2c3e50;
+    height: 4px;
+    border-radius: 2px;
 }
 
 footer .top {
