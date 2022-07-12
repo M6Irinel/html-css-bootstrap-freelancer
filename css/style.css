@@ -57,12 +57,17 @@ body > header .mobile {
         font-size: 50px !important;
     }
 
-    main #portfolio h2 {
+    main #portfolio h2, main #about h2 {
         font-size: 50px !important;
     }
     
     main header P {
         font-size: 25px !important;
+    }
+
+    main #about .bottom {
+        width: 80%;
+        margin: 0 auto;
     }
     
 }
@@ -89,7 +94,7 @@ main header P {
     font-size: 16px;
 }
 
-main header .bar {
+.bar {
     background-color: var(--color-text_white);
     height: 4px;
     border-radius: 2px;
@@ -114,22 +119,18 @@ main #portfolio .content .bottom .col img {
     border-radius: 10px;
 }
 
-main .about {
+main #about {
     background-color: var(--color-light_green);
 }
 
-main .about .content {
-    /* debug */
-    background-color: beige;
+main #about button {
+    border: 1px solid currentColor;
+    color: var(--color-text_white);
+    background-color: transparent;
 }
 
-main .about .content .col {
-    /* debug */
-    border: 2px solid black;
-    /* debug */
-    height: 275px;
-    /* debug */
-    background-color: #6a9bcb;
+main #about h2 {
+    font-size: 25px;
 }
 
 main .contact_me .content {
