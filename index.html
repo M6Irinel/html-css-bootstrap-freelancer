@@ -19,20 +19,30 @@
 <body>
     
     <header>
-        <div class="container py-4">
-            <div class="row gap-5 padding">
-                <div class="col p-4"></div>
-                <div class="col p-4">
-                    <nav class="row gap-5">
-                        <div class="col p-3"></div>
-                        <div class="col p-3"></div>
-                        <div class="col p-3"></div>
-                    </nav>
-
-                    <div class="mobile p-3"></div>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-dark py-3">
+            <div class="container">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
+    
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">ABOUT</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact_me">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
 
     <main>
@@ -46,7 +56,7 @@
         </header>
 
         <!-- PORTFOGLIO -->
-        <section class="portfolio">
+        <section id="portfolio">
             <div class="container py-5">
                 <div class="content">
                     <div class="title p-5"></div>
@@ -64,7 +74,7 @@
         </section>
 
         <!-- ABOUT -->
-        <section class="about">
+        <section id="about">
             <div class="container py-5">
                 <div class="content">
                     <div class="title p-5"></div>
@@ -78,7 +88,7 @@
         </section>
 
         <!-- CONTACT ME -->
-        <section class="contact_me">
+        <section id="contact_me">
             <div class="container py-5 padding">
                 <div class="content">
                     <div class="title p-5"></div>
