@@ -2,6 +2,7 @@
 
 :root {
     --color-light_green: #1abc9c;
+    --color-text_white: #fff;
 }
 
 .padding {
@@ -39,7 +40,7 @@ body > header .mobile {
     border: 2px solid black;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 767px) {
     body > header nav.row {
         display: flex;
     }
@@ -47,18 +48,49 @@ body > header .mobile {
     body > header .mobile {
         display: none;
     }
+
+    main header .content .img {
+        width: 270px !important;
+    }
+
+    main header h2 {
+        font-size: 50px !important;
+    }
+    
+    main header P {
+        font-size: 25px !important;
+    }
+    
 }
 
 main header {
     background-color: var(--color-light_green);
 }
 
-main header .content {
-    /* debug */
-    height: 275px;
-    /* debug */
-    background-color: beige;
+main header .content .img {
+    width: 220px;
 }
+
+main header h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+main header i {
+    font-size: 25px;
+}
+
+main header P {
+    font-size: 16px;
+}
+
+main header .bar {
+    background-color: var(--color-text_white);
+    height: 4px;
+    border-radius: 2px;
+}
+
+
 
 main .portfolio .content {
     /* debug */
