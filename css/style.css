@@ -159,11 +159,22 @@ footer .top {
     background-color: #3a546d;
 }
 
-footer .top .col {
-    /* debug */
-    border: 2px solid black;
-    /* debug */
-    background-color: #6a9bcb;
+footer .top .icons {
+    gap: 20px;
+}
+
+footer .top span {
+    color: var(--color-light_green);
+}
+
+footer .top .icons i {
+    width: 55px;
+    aspect-ratio: 1;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer .bottom {
